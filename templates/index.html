@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }} - Lren's Page</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+
+<img src="{{ url_for('static', filename='fallen2.jpg') }}">
+
+<p>
+<i> Jumping is easy, The rest is just falling down...</i>
+</p>
+<h1>Hello, {{ user.nickname }}!</h1>
+
+</body>
+</html>
